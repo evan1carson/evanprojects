@@ -9,7 +9,6 @@ options("scipen"=999, digits=3)
 cps <- read_csv("Noto_data_task.csv")
 #*assumptions: clghsg_all is already logged
 
-
 cps <- cps %>% 
   mutate(year1 = seq(1:46))
 
